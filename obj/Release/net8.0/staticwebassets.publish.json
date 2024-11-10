@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "Hash": "m2qwC1zJ0ZMIODWZ4Adr4KC3JyNIT5b2lkVIVzTU1JQ=",
+  "Source": "CalculatorEmpty",
+  "BasePath": "_content/CalculatorEmpty",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "CalculatorEmpty\\wwwroot",
+      "Source": "CalculatorEmpty",
+      "ContentRoot": "C:\\Users\\20203830\\source\\repos\\CalculatorEmpty\\CalculatorEmpty\\wwwroot\\",
+      "BasePath": "_content/CalculatorEmpty",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\20203830\\source\\repos\\CalculatorEmpty\\CalculatorEmpty\\wwwroot\\css\\site.css",
+      "SourceId": "CalculatorEmpty",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\20203830\\source\\repos\\CalculatorEmpty\\CalculatorEmpty\\wwwroot\\",
+      "BasePath": "_content/CalculatorEmpty",
+      "RelativePath": "css/site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\20203830\\source\\repos\\CalculatorEmpty\\CalculatorEmpty\\wwwroot\\js\\site.js",
+      "SourceId": "CalculatorEmpty",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\20203830\\source\\repos\\CalculatorEmpty\\CalculatorEmpty\\wwwroot\\",
+      "BasePath": "_content/CalculatorEmpty",
+      "RelativePath": "js/site.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\site.js"
+    }
+  ]
+}

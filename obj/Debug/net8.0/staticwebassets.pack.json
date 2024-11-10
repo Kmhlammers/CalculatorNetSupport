@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\20203830\\source\\repos\\CalculatorEmpty\\CalculatorEmpty\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\20203830\\source\\repos\\CalculatorEmpty\\CalculatorEmpty\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CalculatorEmpty.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.CalculatorEmpty.props",
+      "PackagePath": "build\\CalculatorEmpty.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.CalculatorEmpty.props",
+      "PackagePath": "buildMultiTargeting\\CalculatorEmpty.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.CalculatorEmpty.props",
+      "PackagePath": "buildTransitive\\CalculatorEmpty.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

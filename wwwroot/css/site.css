@@ -1,0 +1,208 @@
+﻿html {
+    font-size: 16px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    padding-top: 60px;
+}
+
+
+.top-bar {
+    background-color: rgb(255,255,255);
+    height: 2rem;
+    padding: 15px;
+    text-align: left;
+    font-size: 1.5rem;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+    .top-bar span {
+        display: block;
+        margin: 0;
+    }
+
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: lighter;
+    color: rgba(47, 79, 79,0.9);
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+h2 {
+    padding-top: 1rem;
+    margin-top: 0;
+    font-weight: normal;
+    font-size: 1.9rem;
+    color: rgba(10, 10, 10);
+}
+
+.container {
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.calculator {
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+    max-width: 412px;
+    width: 80%;
+    min-width: 160px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 1.4em;
+    border-radius: 12px;
+    background-color: rgba(47, 79, 79,0.2);
+    border: solid rgba(47, 79, 79,0.9);
+}
+
+#display {
+    width: calc(100% - 20px);
+    height: 40px;
+    font-size: 24px;
+    text-align: right;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    overflow-x: auto;
+    white-space: nowrap;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+}
+
+
+/* Buttons */
+.buttons {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
+}
+
+    .buttons button {
+        padding: 1em;
+        font-size: 1.4rem;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+
+button.clear, button.delete {
+    color: white;
+    background-color: rgba(244, 67, 54, 0.8);
+    border: none;
+}
+
+button.number {
+    background-color: rgba(190, 190, 190, 0.8);
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+button.operator {
+    background-color: rgba(119, 136, 153, 0.8); 
+    border: none;
+    color: white;
+}
+
+button.submit {
+    background-color: rgba(30, 144, 255, 0.8); 
+    border: none;
+    color: white;
+    grid-column: span 2; 
+}
+
+button.arrow {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+}
+
+
+/* Buttons on hover */
+button.number:hover {
+    background-color: #909090;
+}
+
+button.submit:hover {
+    background-color: rgba(15, 90, 200, 1);
+}
+
+button.clear:hover, button.delete:hover {
+    background-color: #d32f2f;
+}
+
+button.operator:hover {
+    background-color: rgba(100, 115, 130, 1);
+}
+
+button.arrow:hover {
+    background-color: rgba(0,0,0,0.8)
+}
+
+/* Error message */
+.error {
+    color: red;
+    white-space: normal;
+    text-align: center;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 412px;
+    width: 79%;
+    margin-bottom: 10px;
+    margin-top: 0;
+    padding: 0 10px;
+    font-size: 1.5rem;
+}
+
+/* Account for different screen sizes */
+
+@media (max-width: 768px) {
+    html {
+        font-size: 14px; 
+    }
+    .buttons {
+        gap: 4px;
+    }
+    .buttons button {
+        font-size: 1.1rem;
+        padding: 1em;
+    }
+    #display {
+        height: 35px;
+    }
+}
+
+@media (max-width: 480px) {
+    html {
+        font-size: 10px;
+    }
+    .buttons {
+        gap: 3px;
+    }
+    .buttons button {
+        font-size: 1rem;
+        padding: 0.8em;
+    }
+    #display {
+        height: 30px;
+    }
+}
+
+
+
